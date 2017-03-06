@@ -1,0 +1,16 @@
+//
+//  AliPay.pch
+//  AliPayDemo
+//
+//  Created by  MacBook on 16/1/6.
+//  Copyright © 2016年 zlyunduan. All rights reserved.
+//
+
+#ifndef AliPay_pch
+#define AliPay_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <AlipaySDK/AlipaySDK.h>
+
+#endif /* AliPay_pch */

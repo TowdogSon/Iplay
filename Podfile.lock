@@ -1,0 +1,24 @@
+PODS:
+  - JSPatchPlatform (1.6.3):
+    - JSPatchPlatform/Core (= 1.6.3)
+  - JSPatchPlatform/Core (1.6.3)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - JSPatchPlatform
+  - SDWebImage (~> 4.0.0-beta2)
+  - YYKit (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  JSPatchPlatform: a1e6f6e7903fd6e26ceddc6a2aeb0c051cc98100
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 46bb7b682c64cb9b49245c2586c21a28344b9714
+
+COCOAPODS: 1.1.1

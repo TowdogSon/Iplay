@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/Util/openssl_wrapper.m \
+  /Users/tuikai/Desktop/Iplay/Iplay/Iplay.pch \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay.pch \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/FrameWork/AlipaySDK.framework/Headers/AlipaySDK.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/FrameWork/AlipaySDK.framework/Headers/APayAuthInfo.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/Util/openssl_wrapper.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/openssl/rsa.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/asn1.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/e_os2.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/opensslconf.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/bio.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/crypto.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/stack.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/safestack.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/opensslv.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/ossl_typ.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/symhacks.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/bn.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/openssl/pem.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/evp.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/objects.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/obj_mac.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/x509.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/buffer.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/ec.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/ecdsa.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/ecdh.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/dsa.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/dh.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/sha.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/x509_vfy.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/lhash.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/pkcs7.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/pem2.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/openssl/md5.h

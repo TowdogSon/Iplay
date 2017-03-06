@@ -1,0 +1,21 @@
+//
+//  Iplay.pch
+//  Iplay
+//
+//  Created by 推凯 on 2017/2/19.
+//  Copyright © 2017年 TK. All rights reserved.
+//
+
+#ifndef Iplay_pch
+#define Iplay_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <CoreData/CoreData.h>
+#import "AliPay.pch"
+#import <YYKit.h>
+#define screenWidth  [UIScreen mainScreen].bounds.size.width
+#define screenHeight  [UIScreen mainScreen].bounds.size.height
+
+#endif /* Iplay_pch */
