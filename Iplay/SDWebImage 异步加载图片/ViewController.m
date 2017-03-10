@@ -38,6 +38,10 @@
     NSURL* imagePath1 = [NSURL URLWithString:@"http://pic6.huitu.com/res/20130116/84481_20130116142820494200_1.jpg"];
 
     [self.imageView sd_setImageWithURL:imagePath1 placeholderImage:[UIImage imageNamed:@"panda"] options:SDWebImageProgressiveDownload  ];
+    
+    [[SDImageCache sharedImageCache] storeImage:self.imageView.image forKey:@"panda" completion:^{
+        NSLog(@"缓存完成");
+    }];
 }
 
 -(void)viewDidDisappear:(BOOL)animated

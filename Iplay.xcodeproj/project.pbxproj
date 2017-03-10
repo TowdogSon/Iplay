@@ -47,12 +47,14 @@
 		A43F468D1E6BA0F400E2660A /* moreRecommand.json in Resources */ = {isa = PBXBuildFile; fileRef = A43F468C1E6BA0F400E2660A /* moreRecommand.json */; };
 		A43F46901E6BA13F00E2660A /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F468F1E6BA13F00E2660A /* RecommendModel.m */; };
 		A43F46931E6BEC5800E2660A /* KTTestModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F46921E6BEC5800E2660A /* KTTestModelViewController.m */; };
+		A45D45991E7221520090AAFD /* KTSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D45981E7221520090AAFD /* KTSignalViewController.m */; };
 		A463A1AF1E5DA8C100597506 /* KTSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */; };
 		A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */; };
 		A49D29771E59B64D004A358C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D29761E59B64D004A358C /* CoreData.framework */; };
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
 		A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D29BC1E59CC47004A358C /* iplay.xcdatamodeld */; };
 		A49E37591E69335C005537E3 /* kTAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49E37581E69335C005537E3 /* kTAnimationsViewController.m */; };
+		A4A7798D1E6F863500A09C30 /* KTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A7798C1E6F863500A09C30 /* KTProtocol.m */; };
 		A4B03C7B1E59CD90005CB0E4 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C781E59CD90005CB0E4 /* MainTableViewController.m */; };
 		A4B03C7C1E59CD90005CB0E4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C7A1E59CD90005CB0E4 /* TableViewCell.m */; };
 		A4B03C871E59D08D005CB0E4 /* ArInfo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C841E59D08D005CB0E4 /* ArInfo+CoreDataClass.m */; };
@@ -205,6 +207,8 @@
 		A43F468F1E6BA13F00E2660A /* RecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
 		A43F46911E6BEC5800E2660A /* KTTestModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTestModelViewController.h; sourceTree = "<group>"; };
 		A43F46921E6BEC5800E2660A /* KTTestModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTestModelViewController.m; sourceTree = "<group>"; };
+		A45D45971E7221520090AAFD /* KTSignalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSignalViewController.h; sourceTree = "<group>"; };
+		A45D45981E7221520090AAFD /* KTSignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSignalViewController.m; sourceTree = "<group>"; };
 		A463A1AD1E5DA8C000597506 /* Iplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Iplay-Bridging-Header.h"; sourceTree = "<group>"; };
 		A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSwiftViewController.swift; sourceTree = "<group>"; };
 		A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSecondViewController.swift; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 		A49D29BD1E59CC47004A358C /* iplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iplay.xcdatamodel; sourceTree = "<group>"; };
 		A49E37571E69335C005537E3 /* kTAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kTAnimationsViewController.h; sourceTree = "<group>"; };
 		A49E37581E69335C005537E3 /* kTAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kTAnimationsViewController.m; sourceTree = "<group>"; };
+		A4A7798B1E6F863500A09C30 /* KTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTProtocol.h; sourceTree = "<group>"; };
+		A4A7798C1E6F863500A09C30 /* KTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTProtocol.m; sourceTree = "<group>"; };
 		A4B03C771E59CD90005CB0E4 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		A4B03C781E59CD90005CB0E4 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		A4B03C791E59CD90005CB0E4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
@@ -501,6 +507,8 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A45D45961E72212D0090AAFD /* 多线程信号量 */,
+				A4A7798A1E6F860100A09C30 /* URLProtocol扩展方法使用 */,
 				A43F468B1E6BA0F400E2660A /* YYModel转化 */,
 				A49E37561E693344005537E3 /* 动画学习练习 */,
 				A4D370D01E65AA9E00FA1152 /* 图片本地存储两种方式 */,
@@ -566,6 +574,15 @@
 			path = "YYModel转化";
 			sourceTree = "<group>";
 		};
+		A45D45961E72212D0090AAFD /* 多线程信号量 */ = {
+			isa = PBXGroup;
+			children = (
+				A45D45971E7221520090AAFD /* KTSignalViewController.h */,
+				A45D45981E7221520090AAFD /* KTSignalViewController.m */,
+			);
+			path = "多线程信号量";
+			sourceTree = "<group>";
+		};
 		A49D29A91E59C937004A358C /* coreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,6 +607,15 @@
 				A49E37581E69335C005537E3 /* kTAnimationsViewController.m */,
 			);
 			path = "动画学习练习";
+			sourceTree = "<group>";
+		};
+		A4A7798A1E6F860100A09C30 /* URLProtocol扩展方法使用 */ = {
+			isa = PBXGroup;
+			children = (
+				A4A7798B1E6F863500A09C30 /* KTProtocol.h */,
+				A4A7798C1E6F863500A09C30 /* KTProtocol.m */,
+			);
+			path = "URLProtocol扩展方法使用";
 			sourceTree = "<group>";
 		};
 		A4B03C761E59CD90005CB0E4 /* main */ = {
@@ -785,6 +811,7 @@
 				A43786331E5AFAAB0008FF03 /* JSViewController.m in Sources */,
 				A41BC3A41E544D3300767D54 /* MySingleton.m in Sources */,
 				A40573DA1E5C2F5E001272E4 /* KTAlipayViewController.m in Sources */,
+				A4A7798D1E6F863500A09C30 /* KTProtocol.m in Sources */,
 				A40574471E5C33E7001272E4 /* Order.m in Sources */,
 				A4D370D31E65AADF00FA1152 /* KTStoreImageViewController.m in Sources */,
 				A41BC38F1E544C1B00767D54 /* AppDelegate.m in Sources */,
@@ -808,6 +835,7 @@
 				A4F07C621E62EAB600B659C3 /* JSPatchViewController.m in Sources */,
 				A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */,
 				A413223C1E6C3D2C003FC6E9 /* ShopCartModel.m in Sources */,
+				A45D45991E7221520090AAFD /* KTSignalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

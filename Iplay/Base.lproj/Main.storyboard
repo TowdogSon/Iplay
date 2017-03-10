@@ -371,7 +371,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="862" id="Lp3-NP-x7p"/>
                                 </constraints>
-                                <mutableString key="text">  YYModel 转化使用嵌套比 MJExtension 代码节奏更清晰,带有容器的转化,直接在 model类中配置,使代码看起来更简洁       @class Shadow, Border, Attachment;
+                                <string key="text">  YYModel 转化使用嵌套比 MJExtension 代码节奏更清晰,带有容器的转化,直接在 model类中配置,使代码看起来更简洁       @class Shadow, Border, Attachment;
 
 @interface Attributes
 @property NSString *name;
@@ -388,7 +388,7 @@
              @"attachments" : @"Attachment" };
 }
 @end
-</mutableString>
+</string>
                                 <color key="textColor" red="0.76266080141067505" green="0.52189436067550676" blue="0.37187728623657673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -405,6 +405,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYV-P5-Xjy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6500" y="17.541229385307346"/>
+        </scene>
+        <!--Signal View Controller-->
+        <scene sceneID="x2S-1y-p2r">
+            <objects>
+                <viewController storyboardIdentifier="KTSignalViewController" id="6wk-bh-S5G" customClass="KTSignalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4aU-7Z-Vek"/>
+                        <viewControllerLayoutGuide type="bottom" id="O6b-u6-ttd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O0S-wa-Nfk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXR-eT-LTa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Return Value
+
+Returns zero on success, or non-zero if the timeout occurred.
+
+Discussion
+
+Decrement the counting semaphore. If the resulting value is less than zero, this function waits for a signal to occur before returning.                                                                        多线程的使用能很大程度上提升用户交互体验                        1 不会造成线程锁死,在执行代码的时候用户操作无效              2 会在不影响 UI操作的同时提升用户体验,另开线程</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Kc-Y8-013" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7141.6000000000004" y="17.541229385307346"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uC3-bK-VSR">

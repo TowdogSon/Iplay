@@ -29,7 +29,7 @@ static  NSString*identifier=@"KTMainCell";
 -(NSArray *)itemArr
 {
     if (_itemArr==nil) {
-        _itemArr= @[@"SDWebImage 异步加载图片",@"录制音频练习",@"coreData 实操+Swift-OC 互相调用",@"JS调用 OC方法",@"支付宝之给我1分钱",@"JSPatch 测试热修复",@"本地存储图片两种方式",@"动画学习练习",@"YYModel 转化"];
+        _itemArr= @[@"SDWebImage 异步加载图片",@"录制音频练习",@"coreData 实操+Swift-OC 互相调用",@"JS调用 OC方法",@"支付宝之给我1分钱",@"JSPatch 测试热修复",@"本地存储图片两种方式",@"动画学习练习",@"YYModel 转化",@"多线程信号量"];
     }
     return _itemArr;
 }
@@ -37,7 +37,7 @@ static  NSString*identifier=@"KTMainCell";
 -(NSArray *)VCArr
 {
     if (_VCArr==nil) {
-  _VCArr=@[@"ViewController",@"AudioViewController",@"CoreDataViewController",@"JSViewController",@"KTAlipayViewController",@"JSPatchViewController",@"KTStoreImageViewController",@"kTAnimationsViewController",@"KTTestModelViewController"];
+  _VCArr=@[@"ViewController",@"AudioViewController",@"CoreDataViewController",@"JSViewController",@"KTAlipayViewController",@"JSPatchViewController",@"KTStoreImageViewController",@"kTAnimationsViewController",@"KTTestModelViewController",@"KTSignalViewController"];
     }
     return _VCArr;
 }
