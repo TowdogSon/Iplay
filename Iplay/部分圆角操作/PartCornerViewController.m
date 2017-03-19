@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10, 90, screenWidth-20, 44)];
+    view.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:view];
+    //使用UIBezierPath 绘制图形
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:view.bounds byRoundingCorners:UIRectCornerBottomLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(10, 10)];
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = view.bounds;
+    maskLayer.path = maskPath.CGPath;
+    view.layer.mask = maskLayer;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T10-ET-HEW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T10-ET-HEW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -407,38 +407,40 @@
             <point key="canvasLocation" x="6500" y="17.541229385307346"/>
         </scene>
         <!--Signal View Controller-->
-        <scene sceneID="x2S-1y-p2r">
+        <scene sceneID="C3k-yk-gbK">
             <objects>
-                <viewController storyboardIdentifier="KTSignalViewController" id="6wk-bh-S5G" customClass="KTSignalViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="KTSignalViewController" id="28N-ad-RTA" customClass="KTSignalViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4aU-7Z-Vek"/>
-                        <viewControllerLayoutGuide type="bottom" id="O6b-u6-ttd"/>
+                        <viewControllerLayoutGuide type="top" id="f6N-9H-eTm"/>
+                        <viewControllerLayoutGuide type="bottom" id="UHC-QY-fJk"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="O0S-wa-Nfk">
+                    <view key="view" contentMode="scaleToFill" id="haY-Ed-lQQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iXR-eT-LTa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Return Value
-
-Returns zero on success, or non-zero if the timeout occurred.
-
-Discussion
-
-Decrement the counting semaphore. If the resulting value is less than zero, this function waits for a signal to occur before returning.                                                                        多线程的使用能很大程度上提升用户交互体验                        1 不会造成线程锁死,在执行代码的时候用户操作无效              2 会在不影响 UI操作的同时提升用户体验,另开线程</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Kc-Y8-013" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ict-aZ-g43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7141.6000000000004" y="17.541229385307346"/>
+            <point key="canvasLocation" x="7166" y="14"/>
+        </scene>
+        <!--Part Corner View Controller-->
+        <scene sceneID="Muo-l8-Pix">
+            <objects>
+                <viewController storyboardIdentifier="PartCornerViewController" id="0gm-Wx-9U6" customClass="PartCornerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aes-YY-ZrX"/>
+                        <viewControllerLayoutGuide type="bottom" id="CQ7-as-f2E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7GS-OV-Hid">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVY-aY-yPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7839" y="18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uC3-bK-VSR">

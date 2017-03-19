@@ -11,7 +11,7 @@
 #import "UIImageView+WebCache.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
+@property(nonatomic,copy)NSMutableString*muString;
 @end
 
 @implementation ViewController
@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self addButton];
     
     }
 
@@ -44,6 +45,26 @@
     }];
 }
 
+
+
+-(void)addButton{
+    
+    UIButton *bt=[UIButton buttonWithType:UIButtonTypeSystem];
+    
+    [bt setTitle:@"test1" forState:UIControlStateNormal];
+    [bt setImage:[UIImage imageNamed:@"headPic"] forState:UIControlStateNormal];
+    bt.contentMode=UIViewContentModeScaleAspectFit;
+
+    bt.imageView.image=[UIImage imageNamed:@"panda"];
+    bt.imageView.frame=(CGRect){50,0,50,50};
+    bt.imageView.hidden=NO;
+    bt.titleLabel.text=@"test";
+    [bt setFrame:(CGRect){200,600,100,50}];
+    
+    [self.view addSubview:bt];
+    
+    
+}
 -(void)viewDidDisappear:(BOOL)animated
 {
     [self clearMemAndDisk:nil];
