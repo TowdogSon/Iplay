@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C5Iplay21KTSwiftViewController", ""]
 provides-dynamic-lookup:
-- "test"
 - "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "test"
 depends-top-level:
-- !private "CoreDataViewController"
 - !private "StringLiteralType"
-- "KTSwiftViewController"
 - "UIViewController"
-- "String"
 - !private "print"
+- "String"
+- "KTSwiftViewController"
+- !private "CoreDataViewController"
 depends-member:
 - !private ["Ps9AnyObject", "CoreDataViewController"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]

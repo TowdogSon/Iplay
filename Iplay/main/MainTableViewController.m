@@ -63,12 +63,16 @@ static  NSString*identifier=@"KTMainCell";
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
-    cell.textLabel.text=self.itemArr[indexPath.row];
     
+    TableViewCell *cell = [TableViewCell cellWithTableView:tableView];
+    [cell configCellWithTitle:_itemArr[indexPath.row] AtIndexpath:indexPath];
     return cell;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 44;
+}
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //使用 Storyboard 时可不用在故事板连线可以通过 storyBoardID 来获取对应的VC
