@@ -20,7 +20,6 @@
 
 @end
 
-static  NSString*identifier=@"KTMainCell";
 
 @implementation MainTableViewController
 
@@ -29,7 +28,7 @@ static  NSString*identifier=@"KTMainCell";
 -(NSArray *)itemArr
 {
     if (_itemArr==nil) {
-        _itemArr= @[@"SDWebImage 异步加载图片",@"录制音频练习",@"coreData 实操+Swift-OC 互相调用",@"JS调用 OC方法",@"支付宝之给我1分钱",@"JSPatch 测试热修复",@"本地存储图片两种方式",@"动画学习练习",@"YYModel 转化",@"多线程",@"部分圆角操作"];
+        _itemArr= @[@"SDWebImage 异步加载图片",@"录制音频练习",@"coreData 实操+Swift-OC 互相调用",@"JS调用 OC方法",@"支付宝之给我1分钱",@"JSPatch 测试热修复",@"本地存储图片两种方式",@"动画学习练习",@"YYModel 转化",@"多线程",@"部分圆角操作",@"自定义 tabbarVC"];
     }
     return _itemArr;
 }
@@ -37,21 +36,14 @@ static  NSString*identifier=@"KTMainCell";
 -(NSArray *)VCArr
 {
     if (_VCArr==nil) {
-  _VCArr=@[@"ViewController",@"AudioViewController",@"CoreDataViewController",@"JSViewController",@"KTAlipayViewController",@"JSPatchViewController",@"KTStoreImageViewController",@"kTAnimationsViewController",@"KTTestModelViewController",@"KTSignalViewController",@"PartCornerViewController"];
+  _VCArr=@[@"ViewController",@"AudioViewController",@"CoreDataViewController",@"JSViewController",@"KTAlipayViewController",@"JSPatchViewController",@"KTStoreImageViewController",@"kTAnimationsViewController",@"KTTestModelViewController",@"KTSignalViewController",@"PartCornerViewController",@"KTTabBarViewController"];
     }
     return _VCArr;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUp];
 }
 
--(void)setUp{
-    
-
-    [self.tableView registerClass:[TableViewCell class] forCellReuseIdentifier:identifier];
-    
-}
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -62,10 +54,13 @@ static  NSString*identifier=@"KTMainCell";
     return self.itemArr.count;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0.1;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    TableViewCell *cell = [TableViewCell cellWithTableView:tableView];
-    [cell configCellWithTitle:_itemArr[indexPath.row] AtIndexpath:indexPath];
+    TableViewCell *cell = [TableViewCell cellWithTableView:tableView AtIndexpath:indexPath WithTitle:_itemArr[indexPath.row]];
     return cell;
 }
 

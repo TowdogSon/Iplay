@@ -36,12 +36,17 @@
 		A405746F1E5C35B2001272E4 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746E1E5C35B2001272E4 /* libc++.1.tbd */; };
 		A41322391E6C0B48003FC6E9 /* shoppingCart.json in Resources */ = {isa = PBXBuildFile; fileRef = A41322381E6C0B48003FC6E9 /* shoppingCart.json */; };
 		A413223C1E6C3D2C003FC6E9 /* ShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */; };
+		A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BB12B1E82165000DD77F4 /* KTRedraw.m */; };
 		A41BC38C1E544C1B00767D54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BC38B1E544C1B00767D54 /* main.m */; };
 		A41BC38F1E544C1B00767D54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BC38E1E544C1B00767D54 /* AppDelegate.m */; };
 		A41BC3951E544C1B00767D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41BC3931E544C1B00767D54 /* Main.storyboard */; };
 		A41BC3971E544C1B00767D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41BC3961E544C1B00767D54 /* Assets.xcassets */; };
 		A41BC39A1E544C1B00767D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41BC3981E544C1B00767D54 /* LaunchScreen.storyboard */; };
 		A41BC3A41E544D3300767D54 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BC3A31E544D3300767D54 /* MySingleton.m */; };
+		A420880D1E8CAF6B009B6978 /* KTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A420880C1E8CAF6B009B6978 /* KTTabBarViewController.m */; };
+		A42088101E8CB383009B6978 /* KTOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A420880F1E8CB383009B6978 /* KTOneViewController.m */; };
+		A42088131E8CB3A3009B6978 /* KTTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42088121E8CB3A3009B6978 /* KTTwoViewController.m */; };
+		A42088171E8CB3E0009B6978 /* KTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42088161E8CB3E0009B6978 /* KTBaseViewController.m */; };
 		A43786331E5AFAAB0008FF03 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43786321E5AFAAB0008FF03 /* JSViewController.m */; };
 		A43786351E5AFB940008FF03 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = A43786341E5AFB940008FF03 /* JSCallOC.html */; };
 		A43F468D1E6BA0F400E2660A /* moreRecommand.json in Resources */ = {isa = PBXBuildFile; fileRef = A43F468C1E6BA0F400E2660A /* moreRecommand.json */; };
@@ -51,8 +56,10 @@
 		A456FA6C1E7D459600D5C0E2 /* KTOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A456FA681E7D459600D5C0E2 /* KTOperation.m */; };
 		A456FA6D1E7D459600D5C0E2 /* KTSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A456FA6B1E7D459600D5C0E2 /* KTSignalViewController.m */; };
 		A456FA731E7E396200D5C0E2 /* SortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A456FA721E7E396200D5C0E2 /* SortTool.m */; };
+		A457CBD51E90C4FD00D0DCA0 /* KTThrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A457CBD41E90C4FD00D0DCA0 /* KTThrViewController.m */; };
 		A463A1AF1E5DA8C100597506 /* KTSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */; };
 		A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */; };
+		A46A72541E8BEDE5002A65EE /* KTblockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A72531E8BEDE5002A65EE /* KTblockViewController.m */; };
 		A49D29771E59B64D004A358C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D29761E59B64D004A358C /* CoreData.framework */; };
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
 		A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D29BC1E59CC47004A358C /* iplay.xcdatamodeld */; };
@@ -192,6 +199,8 @@
 		A41322381E6C0B48003FC6E9 /* shoppingCart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoppingCart.json; sourceTree = "<group>"; };
 		A413223A1E6C3D2C003FC6E9 /* ShopCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartModel.h; sourceTree = "<group>"; };
 		A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartModel.m; sourceTree = "<group>"; };
+		A41BB12A1E82165000DD77F4 /* KTRedraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTRedraw.h; sourceTree = "<group>"; };
+		A41BB12B1E82165000DD77F4 /* KTRedraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTRedraw.m; sourceTree = "<group>"; };
 		A41BC3871E544C1B00767D54 /* Iplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41BC38B1E544C1B00767D54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A41BC38D1E544C1B00767D54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -202,6 +211,14 @@
 		A41BC39B1E544C1B00767D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A41BC3A21E544D3300767D54 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
 		A41BC3A31E544D3300767D54 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+		A420880B1E8CAF6B009B6978 /* KTTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBarViewController.h; sourceTree = "<group>"; };
+		A420880C1E8CAF6B009B6978 /* KTTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBarViewController.m; sourceTree = "<group>"; };
+		A420880E1E8CB383009B6978 /* KTOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneViewController.h; sourceTree = "<group>"; };
+		A420880F1E8CB383009B6978 /* KTOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneViewController.m; sourceTree = "<group>"; };
+		A42088111E8CB3A3009B6978 /* KTTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTwoViewController.h; sourceTree = "<group>"; };
+		A42088121E8CB3A3009B6978 /* KTTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTwoViewController.m; sourceTree = "<group>"; };
+		A42088151E8CB3E0009B6978 /* KTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTBaseViewController.h; sourceTree = "<group>"; };
+		A42088161E8CB3E0009B6978 /* KTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTBaseViewController.m; sourceTree = "<group>"; };
 		A43786311E5AFAAB0008FF03 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		A43786321E5AFAAB0008FF03 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		A43786341E5AFB940008FF03 /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
@@ -218,9 +235,13 @@
 		A456FA6B1E7D459600D5C0E2 /* KTSignalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSignalViewController.m; sourceTree = "<group>"; };
 		A456FA711E7E396200D5C0E2 /* SortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTool.h; sourceTree = "<group>"; };
 		A456FA721E7E396200D5C0E2 /* SortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTool.m; sourceTree = "<group>"; };
+		A457CBD31E90C4FD00D0DCA0 /* KTThrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTThrViewController.h; sourceTree = "<group>"; };
+		A457CBD41E90C4FD00D0DCA0 /* KTThrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTThrViewController.m; sourceTree = "<group>"; };
 		A463A1AD1E5DA8C000597506 /* Iplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Iplay-Bridging-Header.h"; sourceTree = "<group>"; };
 		A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSwiftViewController.swift; sourceTree = "<group>"; };
 		A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSecondViewController.swift; sourceTree = "<group>"; };
+		A46A72521E8BEDE5002A65EE /* KTblockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTblockViewController.h; sourceTree = "<group>"; };
+		A46A72531E8BEDE5002A65EE /* KTblockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTblockViewController.m; sourceTree = "<group>"; };
 		A49D29761E59B64D004A358C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A49D29791E59B6D0004A358C /* Iplay.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iplay.pch; sourceTree = "<group>"; };
 		A49D29AE1E59C937004A358C /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
@@ -516,6 +537,8 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A42088141E8CB3C2009B6978 /* Base */,
+				A420880A1E8CAF19009B6978 /* 自定义 tabbar */,
 				A456FA651E7D459600D5C0E2 /* multiThread */,
 				A43FA4E71E7B798500D6D78C /* 部分圆角操作 */,
 				A4A7798A1E6F860100A09C30 /* URLProtocol扩展方法使用 */,
@@ -557,6 +580,30 @@
 				A41BC3A31E544D3300767D54 /* MySingleton.m */,
 			);
 			path = "单例写法练习";
+			sourceTree = "<group>";
+		};
+		A420880A1E8CAF19009B6978 /* 自定义 tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A420880B1E8CAF6B009B6978 /* KTTabBarViewController.h */,
+				A420880C1E8CAF6B009B6978 /* KTTabBarViewController.m */,
+				A420880E1E8CB383009B6978 /* KTOneViewController.h */,
+				A420880F1E8CB383009B6978 /* KTOneViewController.m */,
+				A42088111E8CB3A3009B6978 /* KTTwoViewController.h */,
+				A42088121E8CB3A3009B6978 /* KTTwoViewController.m */,
+				A457CBD31E90C4FD00D0DCA0 /* KTThrViewController.h */,
+				A457CBD41E90C4FD00D0DCA0 /* KTThrViewController.m */,
+			);
+			path = "自定义 tabbar";
+			sourceTree = "<group>";
+		};
+		A42088141E8CB3C2009B6978 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A42088151E8CB3E0009B6978 /* KTBaseViewController.h */,
+				A42088161E8CB3E0009B6978 /* KTBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		A43786301E5AFA890008FF03 /* JSOC 互相调用通过 JSCore */ = {
@@ -618,6 +665,8 @@
 			children = (
 				A456FA6A1E7D459600D5C0E2 /* KTSignalViewController.h */,
 				A456FA6B1E7D459600D5C0E2 /* KTSignalViewController.m */,
+				A46A72521E8BEDE5002A65EE /* KTblockViewController.h */,
+				A46A72531E8BEDE5002A65EE /* KTblockViewController.m */,
 			);
 			path = signal;
 			sourceTree = "<group>";
@@ -644,6 +693,8 @@
 			children = (
 				A49E37571E69335C005537E3 /* kTAnimationsViewController.h */,
 				A49E37581E69335C005537E3 /* kTAnimationsViewController.m */,
+				A41BB12A1E82165000DD77F4 /* KTRedraw.h */,
+				A41BB12B1E82165000DD77F4 /* KTRedraw.m */,
 			);
 			path = "动画学习练习";
 			sourceTree = "<group>";
@@ -850,17 +901,23 @@
 				A4E89D401E55D935003CFB38 /* ViewController.m in Sources */,
 				A43786331E5AFAAB0008FF03 /* JSViewController.m in Sources */,
 				A41BC3A41E544D3300767D54 /* MySingleton.m in Sources */,
+				A46A72541E8BEDE5002A65EE /* KTblockViewController.m in Sources */,
 				A40573DA1E5C2F5E001272E4 /* KTAlipayViewController.m in Sources */,
+				A42088171E8CB3E0009B6978 /* KTBaseViewController.m in Sources */,
 				A4A7798D1E6F863500A09C30 /* KTProtocol.m in Sources */,
 				A456FA6D1E7D459600D5C0E2 /* KTSignalViewController.m in Sources */,
 				A40574471E5C33E7001272E4 /* Order.m in Sources */,
+				A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */,
+				A457CBD51E90C4FD00D0DCA0 /* KTThrViewController.m in Sources */,
 				A4D370D31E65AADF00FA1152 /* KTStoreImageViewController.m in Sources */,
 				A41BC38F1E544C1B00767D54 /* AppDelegate.m in Sources */,
 				A4B03C7C1E59CD90005CB0E4 /* TableViewCell.m in Sources */,
 				A41BC38C1E544C1B00767D54 /* main.m in Sources */,
 				A405744A1E5C33E7001272E4 /* DataVerifier.m in Sources */,
 				A405744B1E5C33E7001272E4 /* MD5DataSigner.m in Sources */,
+				A420880D1E8CAF6B009B6978 /* KTTabBarViewController.m in Sources */,
 				A405744E1E5C33E7001272E4 /* RSADataSigner.m in Sources */,
+				A42088101E8CB383009B6978 /* KTOneViewController.m in Sources */,
 				A40574491E5C33E7001272E4 /* DataSigner.m in Sources */,
 				A4B03C881E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m in Sources */,
 				A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */,
@@ -877,6 +934,7 @@
 				A4F07C621E62EAB600B659C3 /* JSPatchViewController.m in Sources */,
 				A43FA4EA1E7B79A100D6D78C /* PartCornerViewController.m in Sources */,
 				A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */,
+				A42088131E8CB3A3009B6978 /* KTTwoViewController.m in Sources */,
 				A413223C1E6C3D2C003FC6E9 /* ShopCartModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

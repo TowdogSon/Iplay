@@ -7,6 +7,7 @@
 //
 
 #import "KTSignalViewController.h"
+#import "KTblockViewController.h"
 #import "KTOperation.h"
 #import "SortTool.h"
 @interface KTSignalViewController ()
@@ -19,7 +20,7 @@
     [super viewDidLoad];
 
     //初识 Masonry 布局
-    NSArray*arr=@[@"排序",@"信号量",@"队列"];
+    NSArray*arr=@[@"排序",@"信号量",@"队列",@"push"];
     
     for (int i=0; i<arr.count; i++) {
         
@@ -53,9 +54,16 @@
     }else if (button.tag==1001)
     {
         [self addOpera];
-    }else
+    }else if (button.tag==1001)
     {
         [self testSignal];
+    }else
+    {
+        KTblockViewController*blockVc=[[KTblockViewController alloc]init];
+        blockVc.block = ^(NSString *str) {
+            NSLog(@"%@",str);
+        };
+        [self.navigationController pushViewController:blockVc animated:YES];
     }
     
     

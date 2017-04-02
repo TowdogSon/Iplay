@@ -7,7 +7,7 @@
 //
 
 #import "kTAnimationsViewController.h"
-
+#import "KTRedraw.h"
 @interface kTAnimationsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
@@ -19,7 +19,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+//    [self layout];
     
+}
+
+-(void)layout{
+    KTRedraw *drawView=[[KTRedraw alloc]init];
+    drawView.backgroundColor=[UIColor randomColor];
+    [self.view addSubview:drawView];
+    
+    [drawView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view).centerOffset(CGPointMake(0, -100));
+        make.size.mas_equalTo(CGSizeMake(100, 100));
+    }];
     
 }
 - (IBAction)startAnimate:(id)sender {

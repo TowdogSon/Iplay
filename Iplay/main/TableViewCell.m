@@ -21,11 +21,17 @@
     // Initialization code
 }
 
-+ (instancetype)cellWithTableView:(UITableView *)tableView
++ (instancetype)cellWithTableView:(UITableView *)tableView AtIndexpath:(NSIndexPath*)indexPath WithTitle:(NSString*)title
 {
     static NSString *ID = @"KTMainCell";
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (!cell) {
+        cell=[[TableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    cell.label2.text=title;
+    cell.label1.text=[NSString stringWithFormat:@"%ld",indexPath.row];
+
     return cell;
 }
 
@@ -58,52 +64,15 @@
         _label2.layer.shadowOffset = CGSizeMake(4, 4);//偏移距离
         _label2.layer.shadowOpacity = 0.5;//不透明度
         _label2.layer.shadowRadius = 2.0;//半径
+        _label2.layer.cornerRadius=5;
+        _label2.layer.masksToBounds=YES;
+        _label2.opaque=0.5;
     }
     
     return self;
 }
 
--(void)configCellWithTitle:(NSString*)title AtIndexpath:(NSIndexPath*)indexPath
-{
-    _label2.text=title;
-    _label1.text=[NSString stringWithFormat:@"%ld",indexPath.row];
-}
--(void)drawRect:(CGRect)rect
-{
-    CGContextRef ref=UIGraphicsGetCurrentContext();
-//    [self drawRectWithShadow:ref];
-}
 
-
-
--(void)drawRectWithShadow:(CGContextRef)context
-{
-    //保存旧的绘图上下文
-    CGContextSaveGState(context);
-    
-    //2.设置阴影(参数：上下文、阴影偏移量、阴影模糊系数)
-    //不带颜色的阴影
-    //CGContextSetShadow(context, CGSizeMake(10, 10), 10.0);
-    
-    //带颜色的阴影
-    CGContextSetShadowWithColor(context, CGSizeMake(4, 4), 0.0,[[UIColor purpleColor]CGColor]);
-    
-    //3.添加矩形
-    CGContextAddRect(context, self.bounds);
-    
-    
-    //4.设置绘图属性
-//    [[UIColor redColor]setFill];      //填充色
-//    [[UIColor blackColor]setStroke];  //描边
-    
-    
-    //5.画矩形
-    CGContextDrawPath(context, kCGPathEOFillStroke);
-    
-    
-    //恢复旧的绘图上下文
-    CGContextRestoreGState(context);
-}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

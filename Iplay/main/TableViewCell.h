@@ -10,7 +10,6 @@
 
 @interface TableViewCell : UITableViewCell
 
--(void)configCellWithTitle:(NSString*)title AtIndexpath:(NSIndexPath*)indexPath;
-+ (instancetype)cellWithTableView:(UITableView *)tableView;
++ (instancetype)cellWithTableView:(UITableView *)tableView AtIndexpath:(NSIndexPath*)indexPath WithTitle:(NSString*)title;
 
 @end
