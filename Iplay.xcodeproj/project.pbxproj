@@ -34,6 +34,7 @@
 		A405746B1E5C358C001272E4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746A1E5C358C001272E4 /* SystemConfiguration.framework */; };
 		A405746D1E5C35AA001272E4 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746C1E5C35AA001272E4 /* libz.1.1.3.tbd */; };
 		A405746F1E5C35B2001272E4 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746E1E5C35B2001272E4 /* libc++.1.tbd */; };
+		A405C78E1E94A1CF00B2567C /* KTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A405C78D1E94A1CF00B2567C /* KTLabel.m */; };
 		A41322391E6C0B48003FC6E9 /* shoppingCart.json in Resources */ = {isa = PBXBuildFile; fileRef = A41322381E6C0B48003FC6E9 /* shoppingCart.json */; };
 		A413223C1E6C3D2C003FC6E9 /* ShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */; };
 		A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BB12B1E82165000DD77F4 /* KTRedraw.m */; };
@@ -70,6 +71,9 @@
 		A4B03C871E59D08D005CB0E4 /* ArInfo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C841E59D08D005CB0E4 /* ArInfo+CoreDataClass.m */; };
 		A4B03C881E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C861E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m */; };
 		A4D370D31E65AADF00FA1152 /* KTStoreImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D370D21E65AADF00FA1152 /* KTStoreImageViewController.m */; };
+		A4E196EB1E9610B3001A5B81 /* BadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E196EA1E9610B3001A5B81 /* BadgeButton.m */; };
+		A4E196EE1E96160F001A5B81 /* TopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E196ED1E96160F001A5B81 /* TopMenuView.m */; };
+		A4E196F21E961A58001A5B81 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E196F11E961A58001A5B81 /* TestViewController.m */; };
 		A4E89D3C1E55D8DD003CFB38 /* AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E89D3B1E55D8DD003CFB38 /* AudioViewController.m */; };
 		A4E89D401E55D935003CFB38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E89D3F1E55D935003CFB38 /* ViewController.m */; };
 		A4F07C5C1E62E90B00B659C3 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F07C5B1E62E90A00B659C3 /* JavaScriptCore.framework */; };
@@ -196,6 +200,8 @@
 		A405746A1E5C358C001272E4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A405746C1E5C35AA001272E4 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		A405746E1E5C35B2001272E4 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		A405C78C1E94A1CF00B2567C /* KTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLabel.h; sourceTree = "<group>"; };
+		A405C78D1E94A1CF00B2567C /* KTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLabel.m; sourceTree = "<group>"; };
 		A41322381E6C0B48003FC6E9 /* shoppingCart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoppingCart.json; sourceTree = "<group>"; };
 		A413223A1E6C3D2C003FC6E9 /* ShopCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartModel.h; sourceTree = "<group>"; };
 		A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartModel.m; sourceTree = "<group>"; };
@@ -261,6 +267,12 @@
 		A4B03C861E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ArInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A4D370D11E65AADF00FA1152 /* KTStoreImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTStoreImageViewController.h; sourceTree = "<group>"; };
 		A4D370D21E65AADF00FA1152 /* KTStoreImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTStoreImageViewController.m; sourceTree = "<group>"; };
+		A4E196E91E9610B3001A5B81 /* BadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeButton.h; sourceTree = "<group>"; };
+		A4E196EA1E9610B3001A5B81 /* BadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeButton.m; sourceTree = "<group>"; };
+		A4E196EC1E96160F001A5B81 /* TopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuView.h; sourceTree = "<group>"; };
+		A4E196ED1E96160F001A5B81 /* TopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuView.m; sourceTree = "<group>"; };
+		A4E196F01E961A58001A5B81 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A4E196F11E961A58001A5B81 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		A4E89D3A1E55D8DD003CFB38 /* AudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioViewController.h; sourceTree = "<group>"; };
 		A4E89D3B1E55D8DD003CFB38 /* AudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioViewController.m; sourceTree = "<group>"; };
 		A4E89D3E1E55D935003CFB38 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -516,6 +528,19 @@
 			path = FrameWork;
 			sourceTree = "<group>";
 		};
+		A405C78B1E94A1BA00B2567C /* Additons */ = {
+			isa = PBXGroup;
+			children = (
+				A405C78C1E94A1CF00B2567C /* KTLabel.h */,
+				A405C78D1E94A1CF00B2567C /* KTLabel.m */,
+				A4E196E91E9610B3001A5B81 /* BadgeButton.h */,
+				A4E196EA1E9610B3001A5B81 /* BadgeButton.m */,
+				A4E196EC1E96160F001A5B81 /* TopMenuView.h */,
+				A4E196ED1E96160F001A5B81 /* TopMenuView.m */,
+			);
+			path = Additons;
+			sourceTree = "<group>";
+		};
 		A41BC37E1E544C1A00767D54 = {
 			isa = PBXGroup;
 			children = (
@@ -537,6 +562,8 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A4E196EF1E961990001A5B81 /* CustomTest */,
+				A405C78B1E94A1BA00B2567C /* Additons */,
 				A42088141E8CB3C2009B6978 /* Base */,
 				A420880A1E8CAF19009B6978 /* 自定义 tabbar */,
 				A456FA651E7D459600D5C0E2 /* multiThread */,
@@ -728,6 +755,15 @@
 			path = "图片本地存储两种方式";
 			sourceTree = "<group>";
 		};
+		A4E196EF1E961990001A5B81 /* CustomTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4E196F01E961A58001A5B81 /* TestViewController.h */,
+				A4E196F11E961A58001A5B81 /* TestViewController.m */,
+			);
+			path = CustomTest;
+			sourceTree = "<group>";
+		};
 		A4E89D391E55D8DD003CFB38 /* 录制音频练习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,6 +946,7 @@
 				A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */,
 				A457CBD51E90C4FD00D0DCA0 /* KTThrViewController.m in Sources */,
 				A4D370D31E65AADF00FA1152 /* KTStoreImageViewController.m in Sources */,
+				A405C78E1E94A1CF00B2567C /* KTLabel.m in Sources */,
 				A41BC38F1E544C1B00767D54 /* AppDelegate.m in Sources */,
 				A4B03C7C1E59CD90005CB0E4 /* TableViewCell.m in Sources */,
 				A41BC38C1E544C1B00767D54 /* main.m in Sources */,
@@ -921,9 +958,11 @@
 				A40574491E5C33E7001272E4 /* DataSigner.m in Sources */,
 				A4B03C881E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m in Sources */,
 				A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */,
+				A4E196F21E961A58001A5B81 /* TestViewController.m in Sources */,
 				A405744F1E5C33E7001272E4 /* RSADataVerifier.m in Sources */,
 				A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */,
 				A43F46931E6BEC5800E2660A /* KTTestModelViewController.m in Sources */,
+				A4E196EB1E9610B3001A5B81 /* BadgeButton.m in Sources */,
 				A4B03C7B1E59CD90005CB0E4 /* MainTableViewController.m in Sources */,
 				A405744D1E5C33E7001272E4 /* openssl_wrapper.m in Sources */,
 				A4E89D3C1E55D8DD003CFB38 /* AudioViewController.m in Sources */,
@@ -932,6 +971,7 @@
 				A4B03C871E59D08D005CB0E4 /* ArInfo+CoreDataClass.m in Sources */,
 				A456FA731E7E396200D5C0E2 /* SortTool.m in Sources */,
 				A4F07C621E62EAB600B659C3 /* JSPatchViewController.m in Sources */,
+				A4E196EE1E96160F001A5B81 /* TopMenuView.m in Sources */,
 				A43FA4EA1E7B79A100D6D78C /* PartCornerViewController.m in Sources */,
 				A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */,
 				A42088131E8CB3A3009B6978 /* KTTwoViewController.m in Sources */,

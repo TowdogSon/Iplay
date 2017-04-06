@@ -8,11 +8,14 @@
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/MySingleton.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTblockViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTAlipayViewController.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTBaseViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTProtocol.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTSignalViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/Order.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTRedraw.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTThrViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTStoreImageViewController.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTLabel.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/AppDelegate.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/TableViewCell.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/main.o
@@ -20,6 +23,7 @@
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/MD5DataSigner.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTTabBarViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/RSADataSigner.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTOneViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/DataSigner.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/ArInfo+CoreDataProperties.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/CoreDataViewController.o
@@ -34,6 +38,7 @@
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/SortTool.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/JSPatchViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/PartCornerViewController.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTTwoViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/ShopCartModel.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTSwiftViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/armv7/KTSecondViewController.o

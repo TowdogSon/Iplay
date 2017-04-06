@@ -8,10 +8,10 @@
 
 #import "TableViewCell.h"
 
-
+#import "KTLabel.h"
 @interface TableViewCell()
 @property(strong,nonatomic)UILabel*label1;
-@property(strong,nonatomic)UILabel*label2;
+@property(strong,nonatomic)KTLabel*label2;
 
 @end
 @implementation TableViewCell
@@ -50,7 +50,7 @@
         }];
         
         
-        _label2=[[UILabel alloc]init];
+        _label2=[[KTLabel alloc]init];
         [self addSubview:_label2];
         
         [_label2 mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -60,13 +60,6 @@
         }];
         self.selectionStyle=UITableViewCellSelectionStyleNone;
         _label2.backgroundColor=[UIColor randomColor];
-        _label2.layer.shadowColor = [UIColor blueColor].CGColor;//阴影颜色
-        _label2.layer.shadowOffset = CGSizeMake(4, 4);//偏移距离
-        _label2.layer.shadowOpacity = 0.5;//不透明度
-        _label2.layer.shadowRadius = 2.0;//半径
-        _label2.layer.cornerRadius=5;
-        _label2.layer.masksToBounds=YES;
-        _label2.opaque=0.5;
     }
     
     return self;
