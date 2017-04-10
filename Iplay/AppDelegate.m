@@ -25,11 +25,11 @@
     
     [NSURLProtocol registerClass:[KTProtocol class]];
     
-    [JSPatch startWithAppKey:@"2b980f56a2b2e613"];
-#ifdef DEBUG
-    [JSPatch setupDevelopment];
-#endif
-    [JSPatch sync];
+//    [JSPatch startWithAppKey:@"2b980f56a2b2e613"];
+//#ifdef DEBUG
+//    [JSPatch setupDevelopment];
+//#endif
+//    [JSPatch sync];
 
     return YES;
 }
