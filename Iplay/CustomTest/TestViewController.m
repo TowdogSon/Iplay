@@ -68,7 +68,9 @@
     
     [self.view addSubview:bottomView];
     
+    
 }
+
 
 -(void)BottomMenusView:(BottomMenusView *)bottomView didClickedBtnWithTag:(NSInteger)tag
 {

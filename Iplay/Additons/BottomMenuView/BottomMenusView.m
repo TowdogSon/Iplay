@@ -51,7 +51,7 @@ const NSInteger Begin_Tag=1000;
             make.width.mas_equalTo(width);
             make.left.mas_equalTo(width*i);
         }];
-        [btn layoutIfNeeded];
+        [btn.layer setNeedsDisplay];
     }
 }
 

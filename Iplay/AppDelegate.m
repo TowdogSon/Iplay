@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import <JSPatchPlatform/JSPatch.h>
-
+#import "KMCGeigerCounter.h"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +24,8 @@
     // Override point for customization after application launch.
     
     [NSURLProtocol registerClass:[KTProtocol class]];
-    
+  
+
 //    [JSPatch startWithAppKey:@"2b980f56a2b2e613"];
 //#ifdef DEBUG
 //    [JSPatch setupDevelopment];
