@@ -60,6 +60,7 @@
 		A457CBD51E90C4FD00D0DCA0 /* KTThrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A457CBD41E90C4FD00D0DCA0 /* KTThrViewController.m */; };
 		A463A1AF1E5DA8C100597506 /* KTSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */; };
 		A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */; };
+		A467220C1E9C86B80022F06D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A467220B1E9C86B80022F06D /* SearchViewController.m */; };
 		A46A72541E8BEDE5002A65EE /* KTblockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A72531E8BEDE5002A65EE /* KTblockViewController.m */; };
 		A49D29771E59B64D004A358C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D29761E59B64D004A358C /* CoreData.framework */; };
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
@@ -250,6 +251,8 @@
 		A463A1AD1E5DA8C000597506 /* Iplay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Iplay-Bridging-Header.h"; sourceTree = "<group>"; };
 		A463A1AE1E5DA8C100597506 /* KTSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSwiftViewController.swift; sourceTree = "<group>"; };
 		A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTSecondViewController.swift; sourceTree = "<group>"; };
+		A467220A1E9C86B80022F06D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A467220B1E9C86B80022F06D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		A46A72521E8BEDE5002A65EE /* KTblockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTblockViewController.h; sourceTree = "<group>"; };
 		A46A72531E8BEDE5002A65EE /* KTblockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTblockViewController.m; sourceTree = "<group>"; };
 		A49D29761E59B64D004A358C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -572,6 +575,7 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A46722061E9C69780022F06D /* UISearchBar */,
 				A4B8D6FF1E975953009323A8 /* Categories */,
 				A4E196EF1E961990001A5B81 /* CustomTest */,
 				A405C78B1E94A1BA00B2567C /* Additons */,
@@ -707,6 +711,15 @@
 				A46A72531E8BEDE5002A65EE /* KTblockViewController.m */,
 			);
 			path = signal;
+			sourceTree = "<group>";
+		};
+		A46722061E9C69780022F06D /* UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				A467220A1E9C86B80022F06D /* SearchViewController.h */,
+				A467220B1E9C86B80022F06D /* SearchViewController.m */,
+			);
+			path = UISearchBar;
 			sourceTree = "<group>";
 		};
 		A49D29A91E59C937004A358C /* coreData */ = {
@@ -1004,6 +1017,7 @@
 				A42088101E8CB383009B6978 /* KTOneViewController.m in Sources */,
 				A40574491E5C33E7001272E4 /* DataSigner.m in Sources */,
 				A4B03C881E59D08D005CB0E4 /* ArInfo+CoreDataProperties.m in Sources */,
+				A467220C1E9C86B80022F06D /* SearchViewController.m in Sources */,
 				A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */,
 				A4E196F21E961A58001A5B81 /* TestViewController.m in Sources */,
 				A405744F1E5C33E7001272E4 /* RSADataVerifier.m in Sources */,
