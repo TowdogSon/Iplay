@@ -12,10 +12,20 @@
 const NSInteger Begin_Tag=1000;
 @interface BottomMenusView()
 @property(strong,nonatomic)KTBarButton*selectedBtn;
-
+@property(strong,nonatomic)UIButton*cameraBtn;
 @end
 @implementation BottomMenusView
 
+- (UIButton *)cameraBtn {
+    
+    if (!_cameraBtn) {
+        _cameraBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_cameraBtn setImage:[UIImage imageNamed:@"tab_launch"] forState:UIControlStateNormal];
+        [_cameraBtn sizeToFit];
+        [_cameraBtn addTarget:self action:@selector(clickItem:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _cameraBtn;
+}
 
 -(instancetype)initWithFrame:(CGRect)frame Titles:(NSArray*)titles NormalImages:(NSArray*)normalImages SelectImages:(NSArray*)selectedImages
 {
@@ -23,6 +33,7 @@ const NSInteger Begin_Tag=1000;
 
         [self setUpUIWithTitles:titles NormalImages:normalImages SelectImages:selectedImages];
         self.backgroundColor=RGB_COLOR(41, 41, 41);
+//        [self addSubview:self.cameraBtn]; 用来测试 button超出 superView 的方位方法
     }
 
     return self;
@@ -74,4 +85,24 @@ const NSInteger Begin_Tag=1000;
         [self.delegate BottomMenusView:self didClickedBtnWithTag:sender.tag];
     }
 }
+-(void)layoutSubviews
+{
+    [super layoutSubviews];
+    self.cameraBtn.center = CGPointMake(self.frame.size.width * 0.5, 0);
+}
+//范围之外的 button 也可以被点击
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    UIView *view = [super hitTest:point withEvent:event];
+    if (view == nil) {
+        CGPoint tempoint = [self.cameraBtn convertPoint:point fromView:self];
+        if (CGRectContainsPoint(self.cameraBtn.bounds, tempoint))
+        {
+            view = self.cameraBtn;
+        }
+    }
+    return view;
+}
+
+
+
 @end

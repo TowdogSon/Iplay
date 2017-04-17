@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>GBDPB7XER7.com.tuikai.cd</string>
+	<string>L4S784H6GJ.cn.com.cmbc.mcrm</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>GBDPB7XER7</string>
+	<string>L4S784H6GJ</string>
 	<key>get-task-allow</key>
-	<true/>
+	<false/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>GBDPB7XER7.com.tuikai.cd</string>
+		<string>L4S784H6GJ.cn.com.cmbc.mcrm</string>
 	</array>
 </dict>
 </plist>

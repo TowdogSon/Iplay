@@ -75,12 +75,12 @@
     UIViewController*viewContr=nil;
     
     //在这里使用@ try 语法捕获异常并做异常处理,即一种方法行不通时,调用第二种方法完成 viewController 的创建
-    @try {
-            viewContr=[storyboard instantiateViewControllerWithIdentifier:self.VCArr[indexPath.row]];
-    }@catch (NSException *exception) {
+//    @try {
+//            viewContr=[storyboard instantiateViewControllerWithIdentifier:self.VCArr[indexPath.row]];
+//    }@catch (NSException *exception) {
         Class c=NSClassFromString(self.VCArr[indexPath.row]);
         viewContr=[[c alloc]init];
-    }
+//    }
 
     [self.navigationController pushViewController:viewContr animated:YES];
 }

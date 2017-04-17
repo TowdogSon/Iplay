@@ -26,13 +26,6 @@
 {
     //layoutSubViews 布局子控件方法,重写可实现自定义
     [super layoutSubviews];
-//    [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.mas_equalTo(self.mas_top).offset(-1);
-//        make.height.mas_equalTo(self.height/2);
-//        make.width.mas_equalTo(self.height/2);
-//        make.centerX.mas_equalTo(self.centerX);
-//    }];
-//    self.imageView.contentMode = UIViewContentModeScaleAspectFit;
 
     [_label mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.imageView.bottom);
