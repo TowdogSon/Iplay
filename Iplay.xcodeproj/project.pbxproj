@@ -66,6 +66,7 @@
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
 		A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D29BC1E59CC47004A358C /* iplay.xcdatamodeld */; };
 		A49E37591E69335C005537E3 /* kTAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49E37581E69335C005537E3 /* kTAnimationsViewController.m */; };
+		A4A507791ECACFE8001C7D63 /* UIColor+randomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A507781ECACFE8001C7D63 /* UIColor+randomColor.m */; };
 		A4A7798D1E6F863500A09C30 /* KTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A7798C1E6F863500A09C30 /* KTProtocol.m */; };
 		A4B03C7B1E59CD90005CB0E4 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C781E59CD90005CB0E4 /* MainTableViewController.m */; };
 		A4B03C7C1E59CD90005CB0E4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B03C7A1E59CD90005CB0E4 /* TableViewCell.m */; };
@@ -262,6 +263,8 @@
 		A49D29BD1E59CC47004A358C /* iplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iplay.xcdatamodel; sourceTree = "<group>"; };
 		A49E37571E69335C005537E3 /* kTAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kTAnimationsViewController.h; sourceTree = "<group>"; };
 		A49E37581E69335C005537E3 /* kTAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kTAnimationsViewController.m; sourceTree = "<group>"; };
+		A4A507771ECACFE8001C7D63 /* UIColor+randomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+randomColor.h"; sourceTree = "<group>"; };
+		A4A507781ECACFE8001C7D63 /* UIColor+randomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+randomColor.m"; sourceTree = "<group>"; };
 		A4A7798B1E6F863500A09C30 /* KTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTProtocol.h; sourceTree = "<group>"; };
 		A4A7798C1E6F863500A09C30 /* KTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTProtocol.m; sourceTree = "<group>"; };
 		A4B03C771E59CD90005CB0E4 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
@@ -546,6 +549,8 @@
 		A405C78B1E94A1BA00B2567C /* Additons */ = {
 			isa = PBXGroup;
 			children = (
+				A4A507771ECACFE8001C7D63 /* UIColor+randomColor.h */,
+				A4A507781ECACFE8001C7D63 /* UIColor+randomColor.m */,
 				A4E196FA1E972014001A5B81 /* BottomMenuView */,
 				A4E196F31E971FF5001A5B81 /* TopMenuView */,
 				A405C78C1E94A1CF00B2567C /* KTLabel.h */,
@@ -945,7 +950,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BE6874AF8981BB0B41C8A606 /* [CP] Embed Pods Frameworks */ = {
@@ -1029,6 +1034,7 @@
 				A4E89D3C1E55D8DD003CFB38 /* AudioViewController.m in Sources */,
 				A4E196F91E971FF5001A5B81 /* TopMenuView.m in Sources */,
 				A40574511E5C33E7001272E4 /* Product.m in Sources */,
+				A4A507791ECACFE8001C7D63 /* UIColor+randomColor.m in Sources */,
 				A49E37591E69335C005537E3 /* kTAnimationsViewController.m in Sources */,
 				A4B03C871E59D08D005CB0E4 /* ArInfo+CoreDataClass.m in Sources */,
 				A456FA731E7E396200D5C0E2 /* SortTool.m in Sources */,
