@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.view.backgroundColor=[UIColor whiteColor];
     NSString*path=[[NSBundle mainBundle]pathForResource:@"moreRecommand" ofType:@"json"];
     NSString*jsonStr=[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     NSDictionary*dict=[jsonStr jsonValueDecoded];

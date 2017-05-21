@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
     // Do any additional setup after loading the view.
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10, 90, screenWidth-20, 44)];
     view.backgroundColor = [UIColor lightGrayColor];

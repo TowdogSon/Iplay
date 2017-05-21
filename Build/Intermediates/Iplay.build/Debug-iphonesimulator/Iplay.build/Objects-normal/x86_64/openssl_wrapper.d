@@ -6,6 +6,7 @@ dependencies: \
   /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/FrameWork/AlipaySDK.framework/Headers/APayAuthInfo.h \
   /Users/tuikai/Desktop/Iplay/Iplay/Base/KTBaseViewController.h \
   /Users/tuikai/Desktop/Iplay/Iplay/Categories/UIView+Frame.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/Additons/UIColor+randomColor.h \
   /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/Util/openssl_wrapper.h \
   /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/AliPay/openssl/rsa.h \
   /Users/tuikai/Desktop/Iplay/Iplay/支付宝支付环节/AliNeed/Alipay/openssl/asn1.h \
