@@ -76,8 +76,7 @@ extern void YY_HSL2HSB(CGFloat h, CGFloat s, CGFloat l,
 ///=============================================================================
 /// @name Creating a UIColor Object
 ///=============================================================================
-//自定义随机颜色
-+(UIColor*)randomColor;
+
 /**
  Creates and returns a color object using the specified opacity
  and HSL color space component values.

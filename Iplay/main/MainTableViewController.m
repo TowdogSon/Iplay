@@ -28,7 +28,7 @@
 -(NSArray *)itemArr
 {
     if (_itemArr==nil) {
-        _itemArr= @[@"动画学习练习",@"YYModel 转化",@"多线程",@"部分圆角操作",@"自定义 tabbarVC",@"CustomTest",@"搜索"];
+        _itemArr= @[@"动画学习练习",@"YYModel 转化",@"多线程",@"部分圆角操作",@"自定义 tabbarVC",@"CustomTest",@"搜索",@"JS调用OC"];
     }
     return _itemArr;
 }
@@ -36,7 +36,7 @@
 -(NSArray *)VCArr
 {
     if (_VCArr==nil) {
-  _VCArr=@[@"kTAnimationsViewController",@"KTTestModelViewController",@"KTSignalViewController",@"PartCornerViewController",@"KTTabBarViewController",@"TestViewController",@"SearchViewController"];
+  _VCArr=@[@"kTAnimationsViewController",@"KTTestModelViewController",@"KTSignalViewController",@"PartCornerViewController",@"KTTabBarViewController",@"TestViewController",@"SearchViewController",@"JSViewController"];
     }
     return _VCArr;
 }

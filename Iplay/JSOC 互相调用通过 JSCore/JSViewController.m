@@ -18,11 +18,31 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    UIWebView*web=[[UIWebView alloc]initWithFrame:self.view.bounds];
+    self.webView=web;
+    self.webView.backgroundColor=[UIColor redColor];
     NSString *path = [[[NSBundle mainBundle] bundlePath]  stringByAppendingPathComponent:@"JSCallOC.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:path]];
     self.webView.delegate=self;
     [self.webView loadRequest:request];
-
+    [self.view addSubview:self.webView];
+    
+    
+    JSContext *context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+    context[@"log"] = ^() {
+        
+        NSLog(@"+++++++Begin Log+++++++");
+        NSArray *args = [JSContext currentArguments];
+        
+        for (JSValue *jsVal in args) {
+            NSLog(@"%@", jsVal);
+        }
+        
+        JSValue *this = [JSContext currentThis];
+        NSLog(@"this: %@",this);
+        NSLog(@"-------End Log-------");
+        
+    };
 }
 
 - (void)didReceiveMemoryWarning {

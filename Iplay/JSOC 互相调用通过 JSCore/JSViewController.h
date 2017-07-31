@@ -17,6 +17,6 @@
 
 @end
 @interface JSViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic)  UIWebView *webView;
 @property(strong,nonatomic)JSContext*context;
 @end

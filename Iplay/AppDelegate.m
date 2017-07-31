@@ -22,8 +22,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [NSURLProtocol registerClass:[KTProtocol class]];
+//    [NSURLProtocol registerClass:[KTProtocol class]];
   
+    
+    
 
 //    [JSPatch startWithAppKey:@"2b980f56a2b2e613"];
 //#ifdef DEBUG
