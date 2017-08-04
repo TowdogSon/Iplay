@@ -50,6 +50,7 @@
 		A42088171E8CB3E0009B6978 /* KTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42088161E8CB3E0009B6978 /* KTBaseViewController.m */; };
 		A43786331E5AFAAB0008FF03 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43786321E5AFAAB0008FF03 /* JSViewController.m */; };
 		A43786351E5AFB940008FF03 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = A43786341E5AFB940008FF03 /* JSCallOC.html */; };
+		A43CB16B1F3458300065C817 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A43CB16A1F3458300065C817 /* CustomTextField.m */; };
 		A43F468D1E6BA0F400E2660A /* moreRecommand.json in Resources */ = {isa = PBXBuildFile; fileRef = A43F468C1E6BA0F400E2660A /* moreRecommand.json */; };
 		A43F46901E6BA13F00E2660A /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F468F1E6BA13F00E2660A /* RecommendModel.m */; };
 		A43F46931E6BEC5800E2660A /* KTTestModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F46921E6BEC5800E2660A /* KTTestModelViewController.m */; };
@@ -234,6 +235,8 @@
 		A43786311E5AFAAB0008FF03 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		A43786321E5AFAAB0008FF03 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		A43786341E5AFB940008FF03 /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		A43CB1691F3458300065C817 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		A43CB16A1F3458300065C817 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		A43F468C1E6BA0F400E2660A /* moreRecommand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moreRecommand.json; sourceTree = "<group>"; };
 		A43F468E1E6BA13F00E2660A /* RecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendModel.h; sourceTree = "<group>"; };
 		A43F468F1E6BA13F00E2660A /* RecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
@@ -580,6 +583,7 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A43CB1681F3458300065C817 /* CustomTextField */,
 				A46722061E9C69780022F06D /* UISearchBar */,
 				A4B8D6FF1E975953009323A8 /* Categories */,
 				A4E196EF1E961990001A5B81 /* CustomTest */,
@@ -661,6 +665,15 @@
 				A43786341E5AFB940008FF03 /* JSCallOC.html */,
 			);
 			path = "JSOC 互相调用通过 JSCore";
+			sourceTree = "<group>";
+		};
+		A43CB1681F3458300065C817 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A43CB1691F3458300065C817 /* CustomTextField.h */,
+				A43CB16A1F3458300065C817 /* CustomTextField.m */,
+			);
+			path = CustomTextField;
 			sourceTree = "<group>";
 		};
 		A43F468B1E6BA0F400E2660A /* YYModel转化 */ = {
@@ -1003,6 +1016,7 @@
 				A40573DA1E5C2F5E001272E4 /* KTAlipayViewController.m in Sources */,
 				A42088171E8CB3E0009B6978 /* KTBaseViewController.m in Sources */,
 				A4A7798D1E6F863500A09C30 /* KTProtocol.m in Sources */,
+				A43CB16B1F3458300065C817 /* CustomTextField.m in Sources */,
 				A456FA6D1E7D459600D5C0E2 /* KTSignalViewController.m in Sources */,
 				A40574471E5C33E7001272E4 /* Order.m in Sources */,
 				A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */,

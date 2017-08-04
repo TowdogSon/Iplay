@@ -27,6 +27,7 @@
     [self.webView loadRequest:request];
     [self.view addSubview:self.webView];
     
+    //使用block 实现调用
     
     JSContext *context = [self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     context[@"log"] = ^() {
