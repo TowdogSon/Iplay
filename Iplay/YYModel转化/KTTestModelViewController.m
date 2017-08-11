@@ -21,12 +21,8 @@
     self.view.backgroundColor=[UIColor whiteColor];
     NSString*path=[[NSBundle mainBundle]pathForResource:@"moreRecommand" ofType:@"json"];
     NSString*jsonStr=[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    NSDictionary*dict=[jsonStr jsonValueDecoded];
-    
-    relateProducts*products=[relateProducts modelWithJSON:dict];
-
-    
-    NSLog(@"%@",products.list[0]);
+    relateProducts*products=[relateProducts modelWithJSON:jsonStr];
+    NSLog(@"products.list[0] ->>%@",products.list[0]);
     
     [self handleRequestResult];
 }

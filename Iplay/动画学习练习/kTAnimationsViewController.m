@@ -24,6 +24,7 @@
     if (!_button) {
         _button=[UIButton buttonWithType:UIButtonTypeCustom];
         [_button setTitle:@"开始动画" forState:UIControlStateNormal];
+        _button.tag=1001;
         [_button setTitleColor:[UIColor randomColor] forState:UIControlStateNormal];
         [_button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     }

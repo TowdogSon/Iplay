@@ -63,6 +63,9 @@
 		A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463A1B01E5DAD3300597506 /* KTSecondViewController.swift */; };
 		A467220C1E9C86B80022F06D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A467220B1E9C86B80022F06D /* SearchViewController.m */; };
 		A46A72541E8BEDE5002A65EE /* KTblockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A72531E8BEDE5002A65EE /* KTblockViewController.m */; };
+		A47216291F3D4A8D000028EA /* UIApplication+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A47216281F3D4A8D000028EA /* UIApplication+AKHook.m */; };
+		A472162C1F3D4AD4000028EA /* UIViewController+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A472162B1F3D4AD4000028EA /* UIViewController+AKHook.m */; };
+		A472162F1F3D4AFD000028EA /* UINavigationController+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A472162E1F3D4AFD000028EA /* UINavigationController+AKHook.m */; };
 		A49D29771E59B64D004A358C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D29761E59B64D004A358C /* CoreData.framework */; };
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
 		A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D29BC1E59CC47004A358C /* iplay.xcdatamodeld */; };
@@ -259,6 +262,12 @@
 		A467220B1E9C86B80022F06D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		A46A72521E8BEDE5002A65EE /* KTblockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTblockViewController.h; sourceTree = "<group>"; };
 		A46A72531E8BEDE5002A65EE /* KTblockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTblockViewController.m; sourceTree = "<group>"; };
+		A47216271F3D4A8D000028EA /* UIApplication+AKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AKHook.h"; sourceTree = "<group>"; };
+		A47216281F3D4A8D000028EA /* UIApplication+AKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AKHook.m"; sourceTree = "<group>"; };
+		A472162A1F3D4AD4000028EA /* UIViewController+AKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKHook.h"; sourceTree = "<group>"; };
+		A472162B1F3D4AD4000028EA /* UIViewController+AKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKHook.m"; sourceTree = "<group>"; };
+		A472162D1F3D4AFD000028EA /* UINavigationController+AKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AKHook.h"; sourceTree = "<group>"; };
+		A472162E1F3D4AFD000028EA /* UINavigationController+AKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKHook.m"; sourceTree = "<group>"; };
 		A49D29761E59B64D004A358C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A49D29791E59B6D0004A358C /* Iplay.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iplay.pch; sourceTree = "<group>"; };
 		A49D29AE1E59C937004A358C /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
@@ -583,6 +592,7 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A47216261F3D4A58000028EA /* HookTools */,
 				A43CB1681F3458300065C817 /* CustomTextField */,
 				A46722061E9C69780022F06D /* UISearchBar */,
 				A4B8D6FF1E975953009323A8 /* Categories */,
@@ -738,6 +748,19 @@
 				A467220B1E9C86B80022F06D /* SearchViewController.m */,
 			);
 			path = UISearchBar;
+			sourceTree = "<group>";
+		};
+		A47216261F3D4A58000028EA /* HookTools */ = {
+			isa = PBXGroup;
+			children = (
+				A47216271F3D4A8D000028EA /* UIApplication+AKHook.h */,
+				A47216281F3D4A8D000028EA /* UIApplication+AKHook.m */,
+				A472162A1F3D4AD4000028EA /* UIViewController+AKHook.h */,
+				A472162B1F3D4AD4000028EA /* UIViewController+AKHook.m */,
+				A472162D1F3D4AFD000028EA /* UINavigationController+AKHook.h */,
+				A472162E1F3D4AFD000028EA /* UINavigationController+AKHook.m */,
+			);
+			path = HookTools;
 			sourceTree = "<group>";
 		};
 		A49D29A91E59C937004A358C /* coreData */ = {
@@ -1005,7 +1028,9 @@
 			files = (
 				A463A1AF1E5DA8C100597506 /* KTSwiftViewController.swift in Sources */,
 				A456FA6C1E7D459600D5C0E2 /* KTOperation.m in Sources */,
+				A472162C1F3D4AD4000028EA /* UIViewController+AKHook.m in Sources */,
 				A40574481E5C33E7001272E4 /* base64.m in Sources */,
+				A472162F1F3D4AFD000028EA /* UINavigationController+AKHook.m in Sources */,
 				A43F46901E6BA13F00E2660A /* RecommendModel.m in Sources */,
 				A40574501E5C33E7001272E4 /* YGPayByAliTool.m in Sources */,
 				A405744C1E5C33E7001272E4 /* NSDataEx.m in Sources */,
@@ -1022,6 +1047,7 @@
 				A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */,
 				A4B8D7051E979040009323A8 /* KTBarButton.m in Sources */,
 				A4E196F81E971FF5001A5B81 /* BadgeButton.m in Sources */,
+				A47216291F3D4A8D000028EA /* UIApplication+AKHook.m in Sources */,
 				A457CBD51E90C4FD00D0DCA0 /* KTThrViewController.m in Sources */,
 				A4D370D31E65AADF00FA1152 /* KTStoreImageViewController.m in Sources */,
 				A405C78E1E94A1CF00B2567C /* KTLabel.m in Sources */,

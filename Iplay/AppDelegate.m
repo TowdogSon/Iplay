@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "UIApplication+AKHook.h"
+#import "UIViewController+AKHook.h"
+#import "UINavigationController+AKHook.h"
 #import <JSPatchPlatform/JSPatch.h>
 @interface AppDelegate ()
 
@@ -32,6 +35,14 @@
 //    [JSPatch setupDevelopment];
 //#endif
 //    [JSPatch sync];
+
+
+    [UIApplication hookUIApplication];
+    [UIViewController hookUIViewController];
+    [UINavigationController hookUINavigationController_push];
+    [UINavigationController hookUINavigationController_pop];
+
+
 
     return YES;
 }
