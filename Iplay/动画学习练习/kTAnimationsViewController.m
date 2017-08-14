@@ -8,6 +8,7 @@
 
 #import "kTAnimationsViewController.h"
 #import "KTRedraw.h"
+#import "CustomTextField.h"
 @interface kTAnimationsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property(nonatomic,strong)UIImageView*imageView2;
@@ -66,7 +67,12 @@
         
     }];
 
-    
+
+    CustomTextField *text=[[CustomTextField alloc]initWithFrame:CGRectMake(100, 400, 200, 100) placeholder:@"请输入..." clear:YES leftView:nil fontSize:17];
+    [self.view addSubview:text];
+    [text mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view).centerOffset(CGPointMake(0, 100));
+    }];
 }
 
 -(void)buttonClicked:(UIButton*)sender

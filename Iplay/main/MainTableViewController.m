@@ -28,7 +28,7 @@
 -(NSArray *)itemArr
 {
     if (_itemArr==nil) {
-        _itemArr= @[@"动画学习练习",@"YYModel 转化",@"多线程",@"部分圆角操作",@"自定义 tabbarVC",@"CustomTest",@"搜索",@"JS调用OC"];
+        _itemArr= @[@"动画学习练习+换行textf",@"YYModel 转化",@"多线程",@"部分圆角操作",@"自定义 tabbarVC",@"CustomTest",@"搜索",@"JS调用OC"];
     }
     return _itemArr;
 }

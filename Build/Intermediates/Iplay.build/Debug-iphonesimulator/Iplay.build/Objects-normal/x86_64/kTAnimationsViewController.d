@@ -8,4 +8,5 @@ dependencies: \
   /Users/tuikai/Desktop/Iplay/Iplay/Categories/UIView+Frame.h \
   /Users/tuikai/Desktop/Iplay/Iplay/Additons/UIColor+randomColor.h \
   /Users/tuikai/Desktop/Iplay/Iplay/动画学习练习/kTAnimationsViewController.h \
-  /Users/tuikai/Desktop/Iplay/Iplay/动画学习练习/KTRedraw.h
+  /Users/tuikai/Desktop/Iplay/Iplay/动画学习练习/KTRedraw.h \
+  /Users/tuikai/Desktop/Iplay/Iplay/CustomTextField/CustomTextField.h

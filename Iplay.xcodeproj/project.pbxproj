@@ -561,6 +561,7 @@
 		A405C78B1E94A1BA00B2567C /* Additons */ = {
 			isa = PBXGroup;
 			children = (
+				A43CB1681F3458300065C817 /* CustomTextField */,
 				A4A507771ECACFE8001C7D63 /* UIColor+randomColor.h */,
 				A4A507781ECACFE8001C7D63 /* UIColor+randomColor.m */,
 				A4E196FA1E972014001A5B81 /* BottomMenuView */,
@@ -593,7 +594,6 @@
 			isa = PBXGroup;
 			children = (
 				A47216261F3D4A58000028EA /* HookTools */,
-				A43CB1681F3458300065C817 /* CustomTextField */,
 				A46722061E9C69780022F06D /* UISearchBar */,
 				A4B8D6FF1E975953009323A8 /* Categories */,
 				A4E196EF1E961990001A5B81 /* CustomTest */,
@@ -683,7 +683,8 @@
 				A43CB1691F3458300065C817 /* CustomTextField.h */,
 				A43CB16A1F3458300065C817 /* CustomTextField.m */,
 			);
-			path = CustomTextField;
+			name = CustomTextField;
+			path = ../CustomTextField;
 			sourceTree = "<group>";
 		};
 		A43F468B1E6BA0F400E2660A /* YYModel转化 */ = {
