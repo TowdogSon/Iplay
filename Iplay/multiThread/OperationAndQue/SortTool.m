@@ -35,14 +35,14 @@
             
         BOOL ISAcending=sortType==KTSortTypeAsending?!([mArr[j] integerValue]>[mArr[j+1] integerValue]):[mArr[j] integerValue]>[mArr[j+1] integerValue];
             
-        if(ISAcending)
+        if(!ISAcending)
         {
             NSNumber*temp=[NSNumber numberWithInteger:[mArr[j] integerValue]];
             [mArr replaceObjectAtIndex:j withObject:mArr[j+1]];
             [mArr replaceObjectAtIndex:j+1 withObject:temp];
             
         }
-    
+
         }
     }
 

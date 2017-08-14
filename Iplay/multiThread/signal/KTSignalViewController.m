@@ -22,7 +22,7 @@
     self.view.backgroundColor=[UIColor whiteColor];
     
     //初识 Masonry 布局
-    NSArray*arr=@[@"排序",@"信号量",@"队列",@"push"];
+    NSArray*arr=@[@"排序",@"队列",@"信号量",@"push"];
     
     for (int i=0; i<arr.count; i++) {
         
@@ -49,6 +49,8 @@
 
 -(void)btnClick:(UIButton*)sender
 {
+
+
     UIButton*button=sender;
     if (button.tag==1000) {
         [self sort];
@@ -56,7 +58,7 @@
     }else if (button.tag==1001)
     {
         [self addOpera];
-    }else if (button.tag==1001)
+    }else if (button.tag==1002)
     {
         [self testSignal];
     }else
