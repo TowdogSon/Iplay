@@ -35,6 +35,7 @@
 		A405746D1E5C35AA001272E4 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746C1E5C35AA001272E4 /* libz.1.1.3.tbd */; };
 		A405746F1E5C35B2001272E4 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A405746E1E5C35B2001272E4 /* libc++.1.tbd */; };
 		A405C78E1E94A1CF00B2567C /* KTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A405C78D1E94A1CF00B2567C /* KTLabel.m */; };
+		A411B02F1FA3299D0002B6F2 /* RGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A411B02E1FA3299D0002B6F2 /* RGLabel.m */; };
 		A41322391E6C0B48003FC6E9 /* shoppingCart.json in Resources */ = {isa = PBXBuildFile; fileRef = A41322381E6C0B48003FC6E9 /* shoppingCart.json */; };
 		A413223C1E6C3D2C003FC6E9 /* ShopCartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */; };
 		A41BB12C1E82165000DD77F4 /* KTRedraw.m in Sources */ = {isa = PBXBuildFile; fileRef = A41BB12B1E82165000DD77F4 /* KTRedraw.m */; };
@@ -66,6 +67,7 @@
 		A47216291F3D4A8D000028EA /* UIApplication+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A47216281F3D4A8D000028EA /* UIApplication+AKHook.m */; };
 		A472162C1F3D4AD4000028EA /* UIViewController+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A472162B1F3D4AD4000028EA /* UIViewController+AKHook.m */; };
 		A472162F1F3D4AFD000028EA /* UINavigationController+AKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A472162E1F3D4AFD000028EA /* UINavigationController+AKHook.m */; };
+		A480FBB71F53F14200A477CC /* ViewControllers.json in Resources */ = {isa = PBXBuildFile; fileRef = A480FBB61F53F14200A477CC /* ViewControllers.json */; };
 		A49D29771E59B64D004A358C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49D29761E59B64D004A358C /* CoreData.framework */; };
 		A49D29B21E59C937004A358C /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49D29AF1E59C937004A358C /* CoreDataViewController.m */; };
 		A49D29BE1E59CC47004A358C /* iplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49D29BC1E59CC47004A358C /* iplay.xcdatamodeld */; };
@@ -212,6 +214,8 @@
 		A405746E1E5C35B2001272E4 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		A405C78C1E94A1CF00B2567C /* KTLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLabel.h; sourceTree = "<group>"; };
 		A405C78D1E94A1CF00B2567C /* KTLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLabel.m; sourceTree = "<group>"; };
+		A411B02D1FA3299D0002B6F2 /* RGLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGLabel.h; sourceTree = "<group>"; };
+		A411B02E1FA3299D0002B6F2 /* RGLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGLabel.m; sourceTree = "<group>"; };
 		A41322381E6C0B48003FC6E9 /* shoppingCart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoppingCart.json; sourceTree = "<group>"; };
 		A413223A1E6C3D2C003FC6E9 /* ShopCartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartModel.h; sourceTree = "<group>"; };
 		A413223B1E6C3D2C003FC6E9 /* ShopCartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCartModel.m; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 		A472162B1F3D4AD4000028EA /* UIViewController+AKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKHook.m"; sourceTree = "<group>"; };
 		A472162D1F3D4AFD000028EA /* UINavigationController+AKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AKHook.h"; sourceTree = "<group>"; };
 		A472162E1F3D4AFD000028EA /* UINavigationController+AKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKHook.m"; sourceTree = "<group>"; };
+		A480FBB61F53F14200A477CC /* ViewControllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ViewControllers.json; sourceTree = "<group>"; };
 		A49D29761E59B64D004A358C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A49D29791E59B6D0004A358C /* Iplay.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iplay.pch; sourceTree = "<group>"; };
 		A49D29AE1E59C937004A358C /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
@@ -572,6 +577,15 @@
 			path = Additons;
 			sourceTree = "<group>";
 		};
+		A411B02C1FA31F4F0002B6F2 /* RGLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A411B02D1FA3299D0002B6F2 /* RGLabel.h */,
+				A411B02E1FA3299D0002B6F2 /* RGLabel.m */,
+			);
+			path = RGLabel;
+			sourceTree = "<group>";
+		};
 		A41BC37E1E544C1A00767D54 = {
 			isa = PBXGroup;
 			children = (
@@ -593,6 +607,8 @@
 		A41BC3891E544C1B00767D54 /* Iplay */ = {
 			isa = PBXGroup;
 			children = (
+				A480FBB61F53F14200A477CC /* ViewControllers.json */,
+				A411B02C1FA31F4F0002B6F2 /* RGLabel */,
 				A47216261F3D4A58000028EA /* HookTools */,
 				A46722061E9C69780022F06D /* UISearchBar */,
 				A4B8D6FF1E975953009323A8 /* Categories */,
@@ -968,6 +984,7 @@
 				A43F468D1E6BA0F400E2660A /* moreRecommand.json in Resources */,
 				A41322391E6C0B48003FC6E9 /* shoppingCart.json in Resources */,
 				A41BC3951E544C1B00767D54 /* Main.storyboard in Resources */,
+				A480FBB71F53F14200A477CC /* ViewControllers.json in Resources */,
 				A43786351E5AFB940008FF03 /* JSCallOC.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1069,6 +1086,7 @@
 				A405744F1E5C33E7001272E4 /* RSADataVerifier.m in Sources */,
 				A463A1B11E5DAD3300597506 /* KTSecondViewController.swift in Sources */,
 				A43F46931E6BEC5800E2660A /* KTTestModelViewController.m in Sources */,
+				A411B02F1FA3299D0002B6F2 /* RGLabel.m in Sources */,
 				A4E196FD1E97208D001A5B81 /* BottomMenuButton.m in Sources */,
 				A4B03C7B1E59CD90005CB0E4 /* MainTableViewController.m in Sources */,
 				A405744D1E5C33E7001272E4 /* openssl_wrapper.m in Sources */,

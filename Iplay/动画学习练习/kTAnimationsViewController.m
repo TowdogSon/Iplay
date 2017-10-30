@@ -9,6 +9,7 @@
 #import "kTAnimationsViewController.h"
 #import "KTRedraw.h"
 #import "CustomTextField.h"
+#import "RGLabel.h"
 @interface kTAnimationsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property(nonatomic,strong)UIImageView*imageView2;
@@ -46,6 +47,20 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor=[UIColor whiteColor];
     [self layoutViews];
+
+    RGLabel*label = [[RGLabel alloc]init];
+    label.text = @"测试测试测试";
+//    label.displayMode = DisplayModeImageRight;
+    label.image = [UIImage imageNamed:@"HeadPic"];
+    label.fond=[UIFont systemFontOfSize:13];
+    label.textColor= [UIColor redColor];
+    [self.view addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(64);
+        make.right.mas_equalTo(self.view).offset(-KInnerPace);
+        make.width.mas_equalTo(screenWidth);
+        make.height.mas_equalTo(30);
+    }];
 }
 
 -(void)layoutViews{

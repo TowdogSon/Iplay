@@ -1,5 +1,7 @@
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTOperation.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/UIViewController+AKHook.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/base64.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/UINavigationController+AKHook.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/RecommendModel.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/YGPayByAliTool.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/NSDataEx.o
@@ -10,11 +12,13 @@
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTAlipayViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTBaseViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTProtocol.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/CustomTextField.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTSignalViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/Order.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTRedraw.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTBarButton.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/BadgeButton.o
+/Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/UIApplication+AKHook.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTThrViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTStoreImageViewController.o
 /Users/tuikai/Desktop/Iplay/Build/Intermediates/Iplay.build/Debug-iphoneos/Iplay.build/Objects-normal/arm64/KTLabel.o

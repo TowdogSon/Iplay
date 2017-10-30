@@ -1,6 +1,6 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "84767de5e10f0513ef7eb730fc923493"
-build_time: [554804331, 152421000]
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "291c3cbdfb0b762404f4ea3ecd9d3833"
+build_time: [1509085705, 809187000]
 inputs:
-  "/Users/tuikai/Desktop/Iplay/Iplay/coreData/KTSwiftViewController.swift": [548133661, 0]
-  "/Users/tuikai/Desktop/Iplay/Iplay/coreData/KTSecondViewController.swift": [548133661, 0]
+  "/Users/tuikai/Desktop/Iplay/Iplay/coreData/KTSwiftViewController.swift": [1494818461, 0]
+  "/Users/tuikai/Desktop/Iplay/Iplay/coreData/KTSecondViewController.swift": [1494818461, 0]
